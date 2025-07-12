@@ -1,0 +1,17 @@
+# Don't upload secret env vars
+.env
+
+# Don't upload virtual environments
+venv/
+
+# Don't upload Python cache files
+__pycache__/
+*.pyc
+
+# SQLite database folder or backup files (if stored separately)
+instance/
+*.db
+
+# OS & Editor-specific
+.DS_Store
+*.log
