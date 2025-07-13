@@ -1,6 +1,7 @@
 # Don't upload secret env vars
 .env
 node_modules/
+build
 dist/
 # Don't upload virtual environments
 venv/
@@ -12,6 +13,7 @@ __pycache__/
 # SQLite database folder or backup files (if stored separately)
 instance/
 *.db
+.vscode
 
 # OS & Editor-specific
 .DS_Store
