@@ -1,6 +1,7 @@
 # Don't upload secret env vars
 .env
-
+node_modules/
+dist/
 # Don't upload virtual environments
 venv/
 
